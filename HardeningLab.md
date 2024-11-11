@@ -56,7 +56,7 @@ by downloading the file inside the Virtual Machine or using VMware tools
 or VirtualBox shared folders to move files between your host and virtual
 machine.
 
-**TA Note: If you download it from Github, Microsoft Edge will flag this script as dangerous. You may have to click on the download and press keep.**
+**TA Note: If you download the scripts from Github, Microsoft Edge will flag this script as dangerous. You may have to click on the download and press keep to make it appear in your Downloads folder.**
 
 Open PowerShell as an administrator. This can be done by right clicking
 on the Windows icon in the bottom left corner and clicking *Windows
