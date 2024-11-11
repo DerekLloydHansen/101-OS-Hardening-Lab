@@ -32,6 +32,11 @@ possible. This will allow you to revert it to a clean slate after
 completing the lab, allowing you to reuse the same machine after this
 lab.
 
+Here is how to take a snapshot:
+
+![image](https://github.com/user-attachments/assets/5161e9fc-5dec-4e51-b954-e52adc4174fa)
+
+
 ### Custom Lab Configuration
 
 For this lab, customization is an option for presenting alternate environments from the one pre-configured in `system-hardening.ps1`. 
@@ -57,6 +62,9 @@ or VirtualBox shared folders to move files between your host and virtual
 machine.
 
 **TA Note: If you download the scripts from Github, Microsoft Edge will flag this script as dangerous. You may have to click on the download and press keep to make it appear in your Downloads folder.**
+
+![image](https://github.com/user-attachments/assets/7430888f-a475-493c-b922-dca8ee2db27f)
+
 
 Open PowerShell as an administrator. This can be done by right clicking
 on the Windows icon in the bottom left corner and clicking *Windows
