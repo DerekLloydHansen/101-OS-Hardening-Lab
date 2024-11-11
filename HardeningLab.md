@@ -233,7 +233,7 @@ familiarize yourself with information that each setting can provide.
 
 Check *Success* and *Failure* on each setting to provide the most
 context on events. Now, open a PowerShell window on the VM. Within the
-Windows Event Viewer, process creation events will now be shown in the
+Windows Event Viewer (found by typing in Event Viewer in Windows panel), process creation events will now be shown in the
 Security log. Under the *Task Category* Process Creation, the Security
 log should show the created PowerShell process:
 
@@ -273,6 +273,7 @@ following settings can aid in further hardening Windows 10:
 
 -   Accounts: Rename guest account
     -   In addition to being disabled from previous settings, this can help throw off an attacker by using non-default account names.
+    -   Needs to be capitalized
 
 -   Interactive logon: Display user information when the session is locked - Do not display user information
     -   Not displaying user information can be useful in preventing attackers from gathering information on a physical machine. If an attacker walks by a locked machine, not displaying basic account information can help protect against the initial stages of an attack.
