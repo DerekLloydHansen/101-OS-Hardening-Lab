@@ -9,7 +9,7 @@ purposes. Do not run this outside of a virtual environment.**
 
 **This writeup has added a couple of lines to fix potential issues.**
 
-**If your VM is not setup, go to VMSetup.md first before moving on**
+**If your VM is not setup, go to [VMSetup.md](https://github.com/Skid1254/101-OS-Hardening-Lab/blob/main/VMSetup.md) first before moving on**
 
 <u>Requirements:</u>
 
