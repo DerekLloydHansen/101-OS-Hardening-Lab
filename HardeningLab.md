@@ -211,6 +211,7 @@ following recommendations are again using CIS benchmarks:
 
 -   Account lockout threshold - 10 invalid logon attempts (or less but greater than 0)
     -   Prevents an attacker attempting to brute force passwords to an account
+    -   Try changing this one first, it will allow you to change Account lockout duration
 
 -   Reset account lockout counter after - 15 minutes (or more)
     -   Helps a user gain access to their own machine after accidental self-lockouts
