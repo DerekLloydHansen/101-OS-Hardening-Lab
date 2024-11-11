@@ -84,7 +84,9 @@ associated resource scripts. This will vary depending on the location of
 the file and the username on the Virtual Machine. Run it with the
 dot-backslash command:
 
-<img src="media\image3.png" style="width:4.125in;height:0.39583in" />
+![image](https://github.com/user-attachments/assets/8f519b79-a227-4262-8d1e-49c838d2f959)
+
+
 
 **Note:** This PowerShell script is not intended to be reverse
 engineered to find vulnerabilities on the system, but rather emulate an
