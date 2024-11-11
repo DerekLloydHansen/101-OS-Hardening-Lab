@@ -429,3 +429,10 @@ prompting for confirmation before using administrator privileges:
 
 ![image](https://github.com/user-attachments/assets/88d49874-a331-4a60-94d6-7cc934bb06ff)
 
+## Turn In Procedure 
+
+To turn in this lab, you will do a writeup about what you learned along with screenshots of what you did. 
+Please include at least 3 screenshots. 
+
+
+
