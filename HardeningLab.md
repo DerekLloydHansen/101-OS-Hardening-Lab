@@ -237,6 +237,8 @@ Windows Event Viewer, process creation events will now be shown in the
 Security log. Under the *Task Category* Process Creation, the Security
 log should show the created PowerShell process:
 
+**TA Note** You may not see the Powershell Creation log, there are a lot. 
+
 ![image](https://github.com/user-attachments/assets/c6df83e1-3d94-4610-9006-3102095dc1b6)
 
 
