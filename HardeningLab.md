@@ -5,8 +5,9 @@
 will introduce vulnerabilities to a system upon execution for training
 purposes. Do not run this outside of a virtual environment.**
 
-**Disclaimer: This lab was provided by champlian-cyberlabs. Here is the link to the original lab: https://github.com/champlain-cyberlabs/cyberlabs/blob/main/docs/windows/system-hardening/system-hardening.md
-This writeup has added a couple of lines to fix potential issues. **
+**** Disclaimer: This lab was provided by champlian-cyberlabs. Here is the link to the original lab: https://github.com/champlain-cyberlabs/cyberlabs/blob/main/docs/windows/system-hardening/system-hardening.md
+
+This writeup has added a couple of lines to fix potential issues. ****
 
 <u>Requirements:</u>
 
@@ -57,12 +58,14 @@ Open PowerShell as an administrator. This can be done by right clicking
 on the Windows icon in the bottom left corner and clicking *Windows
 PowerShell (Admin)*:
 
-<img src="media\image11.png" style="width:2.00625in;height:2.5597in" />
+![image](https://github.com/user-attachments/assets/7dc7cebd-273c-4f60-b1ac-db2017328fa2)
+
 
 Disable Windows Defender and set the execution policy to allow the
 script to run:
 
-<img src="media\image24.png" style="width:5.40625in;height:0.34375in" />
+![image](https://github.com/user-attachments/assets/a50edb1b-4a3f-4438-a7e4-f698c04daa54)
+
 
 Change directories to the folder containing the PowerShell script and
 associated resource scripts. This will vary depending on the location of
@@ -109,13 +112,15 @@ Security Policy Editor*. A link to this program has been created on the
 desktop. This can be found by searching by name within the Windows task
 bar.
 
-<img src="media\image12.png" style="width:1.65972in;height:2.60173in" />
+![image](https://github.com/user-attachments/assets/fedafd33-e9f1-41c8-89f2-842173b4ad96)
+
 
 Within the policy manager, settings are categorized into different types
 of settings. Various settings within these categories will be modified
 to improve the system’s overall security posture.
 
-<img src="media\image16.png" style="width:6.5in;height:2.5in" />
+![image](https://github.com/user-attachments/assets/36004f6a-64f4-4557-bed6-fd1ff54befc9)
+
 
 ## Local Password Policies
 
@@ -126,12 +131,14 @@ in Windows Server Core installations where no GUI is available, or on
 remote machines that are accessed over SSH or PowerShell Remoting. From
 an administrator PowerShell or Command Prompt session, run the `net accounts` command to view basic password policies on the local machine:
 
-<img src="media\image7.png" style="width:4.50694in;height:2.66116in" />
+![image](https://github.com/user-attachments/assets/2a6e8004-2cad-4182-8543-437a0727cc81)
+
 
 Within the Local Security Policy editor, Underneath *Security Settings*,
 expand *Account Policies* and click on *Password Policy*:
 
-<img src="media\image20.png" style="width:6.5in;height:2.88889in" />
+![image](https://github.com/user-attachments/assets/87b2389b-e984-44ec-a6a3-f3b880a1b2b1)
+
 
 This pane contains some basic password policies on the local system and
 mirrors a lot of information observed in the `net accounts` output
@@ -139,7 +146,8 @@ previously shown. On any of the policies displayed within rows in Local
 Security Policy, a more detailed description with additional context can
 be found by double-clicking on each item and going to the *Explain* tab:
 
-<img src="media\image18.png" style="width:6.5in;height:3.20833in" />
+![image](https://github.com/user-attachments/assets/e16cad62-76d8-48f1-850d-ed15e23f3358)
+
 
 The various settings here will likely need to be tailored to fit a
 specific organization's policies. The following settings with
@@ -169,7 +177,8 @@ versions of Windows on the CIS website.
 After modifying local password policies to meet CIS recommendations, the
 Local Security Policy editor should look like this:
 
-<img src="media\image2.png" style="width:6.5in;height:2.47222in" />
+![image](https://github.com/user-attachments/assets/383986cf-bc63-4e28-a2f8-0dde29cf4207)
+
 
 ## Account Lockout Policy
 
@@ -189,7 +198,8 @@ following recommendations are again using CIS benchmarks:
 After successfully applying these settings, this pane should look like
 the following:
 
-<img src="media\image4.png" style="width:6.5in;height:2.26389in" />
+![image](https://github.com/user-attachments/assets/46530678-1f3b-463a-9a0b-6ecaa210aef2)
+
 
 ## Local Audit Policy
 
@@ -206,7 +216,8 @@ Windows Event Viewer, process creation events will now be shown in the
 Security log. Under the *Task Category* Process Creation, the Security
 log should show the created PowerShell process:
 
-<img src="media\image10.png" style="width:6.5in;height:3.66667in" />
+![image](https://github.com/user-attachments/assets/c6df83e1-3d94-4610-9006-3102095dc1b6)
+
 
 ## Local User Rights Assignment Policy
 
@@ -268,7 +279,8 @@ After successfully setting these policies, a login screen should require
 a CTRL+ALT+DELETE combination for logging in, and a custom message will
 be displayed:
 
-<img src="media\image14.png" style="width:3.61111in;height:1.79724in" />
+![image](https://github.com/user-attachments/assets/d94acb75-8672-4292-8e01-341633d0a4b6)
+
 
 When logging in, no other previous users will be visible and the user
 name will need to be specified before Zuko can login. This makes an
@@ -282,7 +294,8 @@ built-in features can help prevent malware from running, protect against
 ransomware, and more. Search for *Windows Security* in the Windows
 taskbar and go to *Virus & threat protection*:
 
-<img src="media\image23.png" style="width:6.27778in;height:4.02504in" />
+![image](https://github.com/user-attachments/assets/57881a0e-2043-44f8-848f-2e5fc40efc9c)
+
 
 In this menu, scans can be performed against the system. This will scan
 a number of directories against available virus signatures to try to
@@ -296,7 +309,8 @@ as malicious and uploads the file automatically to Microsoft, this could
 result in unauthorized data disclosure. In order to protect against
 this, turn this setting off:
 
-<img src="media\image8.png" style="width:4.05556in;height:1.98802in" />
+![image](https://github.com/user-attachments/assets/9ad02b04-8312-43b2-afdd-2f8f4c7564c6)
+
 
 The *Submit a sample manually* button can still be used to upload a
 suspect file.
@@ -304,19 +318,22 @@ suspect file.
 Additionally, the Exclusions option can be configured to add any
 legitimate software that is detected by Defender:
 
-<img src="media\image22.png" style="width:5.16667in;height:1.47917in" />
+![image](https://github.com/user-attachments/assets/9224cf02-a2f9-4b1b-8793-67f2eaf90453)
+
 
 This can be useful for a machine that is used by a penetration tester in
 an organization or someone handling potentially malicious software. This
 can also be abused by attackers, however, to add exclusions for
 malicious software. Click *Add or remove exclusions*:
 
-<img src="media\image13.png" style="width:4.77083in;height:2.63218in" />
+![image](https://github.com/user-attachments/assets/26e589be-5953-4653-8709-ee4df97dacbb)
+
 
 Remove this exclusion and run another quick scan. A threat should be
 detected:
 
-<img src="media\image17.png" style="width:2.80047in;height:3.61806in" />
+![image](https://github.com/user-attachments/assets/920437ac-bc91-4eca-88f6-62f6da2172fa)
+
 
 Click *Remove* and *Start actions* to remove the malware from the host.
 This should remove the malicious software from the VM.
@@ -327,18 +344,21 @@ Under *Virus & threat protection*, Microsoft Defender offers Ransomware
 protection. This is a feature currently only available for Windows 10
 Pro:
 
-<img src="media\image21.png" style="width:6.5in;height:3.375in" />
+![image](https://github.com/user-attachments/assets/ece05f10-853f-4cb9-9e3a-89204bbeef24)
+
 
 Click on *Controlled folder access*, and turn the setting on. By
 default, this will stop file access in user directories from many
 applications in order to prevent ransomware. For example, PowerShell’s
 `New-Item` commandlet won’t be able to write to Zuko’s `Documents` folder:
 
-<img src="media\image5.png" style="width:6.5in;height:1.91667in" />
+![image](https://github.com/user-attachments/assets/753e961a-9fca-4bb1-aa0e-0ed289c6fb5f)
+
 
 This action will be logged in ransomware protection history in Defender:
 
-<img src="media\image25.png" style="width:6.5in;height:4.11111in" />
+![image](https://github.com/user-attachments/assets/d3d4ad50-4f50-4309-8646-fe12941527c7)
+
 
 This can help prevent ransomware even if an unauthorized program is
 executed on the victim machine.
@@ -349,7 +369,8 @@ In Windows Security, navigate to *Device Security* and then click on
 *Core isolation*. Memory integrity is one feature that can be turned on
 to prevent certain processes from tampering with each other:
 
-<img src="media\image15.png" style="width:6.22917in;height:3.95622in" />
+![image](https://github.com/user-attachments/assets/536ac7cd-13d1-4de9-9634-f6f7e0bfddfb)
+
 
 ## Reputation-based protection
 
@@ -357,7 +378,8 @@ Reputation-based protection is a feature that is built-in to Microsoft
 Edge that can prevent malicious sites from being accessed. Turn this
 feature on underneath *App & browser control*:
 
-<img src="media\image6.png" style="width:6.5in;height:4.11111in" />
+![image](https://github.com/user-attachments/assets/83626c3f-850c-4d9a-8914-32521b0b71bb)
+
 
 ## Windows Defender Firewall
 
@@ -367,7 +389,8 @@ firewall rules often suffice for individual workstations. Underneath
 *Firewall & network protection*, ensure that all network profiles are
 enabled:
 
-<img src="media\image26.png" style="width:6.5in;height:4.11111in" />
+![image](https://github.com/user-attachments/assets/35573b94-2afb-4281-a42a-39d335802a89)
+
 
 A link to Windows Defender Firewall with Advanced Security has been
 placed on the VM's desktop. Open this to view all inbound and outbound
@@ -387,16 +410,19 @@ confirmation message. This step can help interrupt malware from
 successfully running on a system. To toggle this feature, search for
 *user account control* in the Windows taskbar:
 
-<img src="media\image19.png" style="width:3.05161in;height:5.01389in" />
+![image](https://github.com/user-attachments/assets/dac47ce2-5a3f-42cd-b2dc-08c6dad32aee)
+
 
 There are various settings available to notify the user at different
 times on a workstation. For most users, the second option from the top
 should work:
 
-<img src="media\image1.png" style="width:5.86806in;height:4.35404in" />
+![image](https://github.com/user-attachments/assets/36f95dbf-5596-410b-bf0a-778d03f7b84e)
+
 
 After committing this change, try opening up an administrative
 PowerShell session. You should now be greeted by User Account Control
 prompting for confirmation before using administrator privileges:
 
-<img src="media\image9.png" style="width:3.61806in;height:2.46758in" />
+![image](https://github.com/user-attachments/assets/88d49874-a331-4a60-94d6-7cc934bb06ff)
+
