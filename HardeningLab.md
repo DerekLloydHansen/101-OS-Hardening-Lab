@@ -304,7 +304,7 @@ taskbar and go to *Virus & threat protection*:
 **TA Note**: If you do not see the Quick Scan button here is a fix: 
 1. Press CTRL + R to open run prompt
 2. Type in regedit and Press OK
-3. you will see 2 columns. On left column select HKEY_LOCAL_MACHINE
+3. You will see 2 columns. On left column select HKEY_LOCAL_MACHINE
 4. Next, navigate to Software, Policies, Microsoft, Windows Defender
 5. Select the Windows Defender Folder, not the 2 other folders it contains
 6. You should see a file named DisableAntiSpyware. Select it and right click it.
