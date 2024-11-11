@@ -56,6 +56,8 @@ by downloading the file inside the Virtual Machine or using VMware tools
 or VirtualBox shared folders to move files between your host and virtual
 machine.
 
+**TA Note: If you download it from Github, Microsoft Edge will flag this script as dangerous. You may have to click on the download and press keep.**
+
 Open PowerShell as an administrator. This can be done by right clicking
 on the Windows icon in the bottom left corner and clicking *Windows
 PowerShell (Admin)*:
@@ -298,6 +300,16 @@ ransomware, and more. Search for *Windows Security* in the Windows
 taskbar and go to *Virus & threat protection*:
 
 ![image](https://github.com/user-attachments/assets/57881a0e-2043-44f8-848f-2e5fc40efc9c)
+
+**TA Note**: If you do not see the Quick Scan button here is a fix: 
+1. Press CTRL + R to open run prompt
+2. Type in regedit and Press OK
+3. you will see 2 columns. On left column select HKEY_LOCAL_MACHINE
+4. Next, navigate to Software, Policies, Microsoft, Windows Defender
+5. Select the Windows Defender Folder, not the 2 other folders it contains
+6. You should see a file named DisableAntiSpyware. Select it and right click it.
+7. Change numerical value to 0 and hit OK.
+This should fix your problem!
 
 
 In this menu, scans can be performed against the system. This will scan
