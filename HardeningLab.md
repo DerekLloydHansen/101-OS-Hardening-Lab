@@ -96,6 +96,12 @@ completion.
 
 ## User Accounts
 
+After you ran the system-hardening script, your login screen should look like this: 
+
+![image](https://github.com/user-attachments/assets/25fed927-3921-41f9-8e84-8f96e6817939)
+
+Login as Zuko. 
+
 For this lab, this workstation belongs to one user:
 
 -   Zuko - Local Administrator
