@@ -12,7 +12,7 @@
  
 6. Click 'Create new virtual machine' and select 'typical'
 
-7. For the installer disk image, have them browse to and select the ISO in their local user directory. NOT THE ONE IN THE SHARED FOLDER
+7. For the installer disk image, have them browse to and select the ISO in their local user directory. **NOT THE ONE IN THE SHARED FOLDER**
 
 8. The next step can be left as default
 
