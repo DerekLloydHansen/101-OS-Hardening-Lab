@@ -1,4 +1,4 @@
-# Instructions to Get ISO File onto your Virtual Machine 
+# Instructions to Set Up Virtual Machine 
 
 1. Open up file explorer and click on the search bar at the top of the window
   
