@@ -281,6 +281,7 @@ be displayed:
 
 ![image](https://github.com/user-attachments/assets/d94acb75-8672-4292-8e01-341633d0a4b6)
 
+*CTRL + ALT + DELETE in VmWare is CTRL + ALT + INSERT* 
 
 When logging in, no other previous users will be visible and the user
 name will need to be specified before Zuko can login. This makes an
