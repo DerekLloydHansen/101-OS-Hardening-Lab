@@ -353,6 +353,8 @@ detected:
 Click *Remove* and *Start actions* to remove the malware from the host.
 This should remove the malicious software from the VM.
 
+**TA Note** Due to the change in the registers if Quick Scan did not show up, the "malware" might not appear. Just move along. This affects nothing later. The file is not technically malware, it just should not be in that file. 
+
 ## Ransomware protection
 
 Under *Virus & threat protection*, Microsoft Defender offers Ransomware
