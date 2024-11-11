@@ -59,5 +59,5 @@ When the machine is first booting up, there will be a screen that appears for a 
 
 CONGRATS!! Now you can start the lab!!!
 
-Head over to [HardeningLab.md] for lab instructions.
+Head over to [HardeningLab.md](https://github.com/Skid1254/101-OS-Hardening-Lab/blob/main/HardeningLab.md)for lab instructions.
 
