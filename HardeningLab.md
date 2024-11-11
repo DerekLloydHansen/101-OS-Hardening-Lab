@@ -5,9 +5,9 @@
 will introduce vulnerabilities to a system upon execution for training
 purposes. Do not run this outside of a virtual environment.**
 
-**** Disclaimer: This lab was provided by champlian-cyberlabs. Here is the link to the original lab: https://github.com/champlain-cyberlabs/cyberlabs/blob/main/docs/windows/system-hardening/system-hardening.md
+**Disclaimer: This lab was provided by champlian-cyberlabs. Here is the link to the original lab: https://github.com/champlain-cyberlabs/cyberlabs/blob/main/docs/windows/system-hardening/system-hardening.md**
 
-This writeup has added a couple of lines to fix potential issues. ****
+**This writeup has added a couple of lines to fix potential issues.**
 
 <u>Requirements:</u>
 
