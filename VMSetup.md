@@ -2,13 +2,15 @@
 
 1. Open up Box and look for the 101 Hardening Lab Folder
 
-2. Look for the Windows 10.iso file and copy it over to your Downloads folder 
+{Box Link](https://byu.box.com/s/glivxjlh23kkpwogxkg7a5r6uahm6mx1)
 
-3. Open VMware Workstation pro (should already be on the computers)
+3. Look for the Windows 10.iso file and copy it over to your Downloads folder 
+
+4. Open VMware Workstation pro (should already be on the computers)
  
-4. Click 'Create new virtual machine' and select 'typical'
+5. Click 'Create new virtual machine' and select 'typical'
 
-5. For the installer disk image, have them browse to and select the ISO in Downloads folder. **NOT THE ONE IN THE SHARED FOLDER**
+6. For the installer disk image, have them browse to and select the ISO in Downloads folder. **NOT THE ONE IN THE SHARED FOLDER**
 
 ![image](https://github.com/user-attachments/assets/401515bc-5dc1-46b8-b016-c9a488b4bd32)
 
