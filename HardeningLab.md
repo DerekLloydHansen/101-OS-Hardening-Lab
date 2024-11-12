@@ -193,6 +193,8 @@ versions of Windows on the CIS website.
 
 -   Store passwords using reversible encryption - Disabled
     -   Password storage should be stored in a way that makes them less susceptible to compromise
+ 
+**TAKE A SCREENSHOT OF SOMETHING YOU CHANGED!!!**
 
 After modifying local password policies to meet CIS recommendations, the
 Local Security Policy editor should look like this:
@@ -298,6 +300,10 @@ following settings can aid in further hardening Windows 10:
 
 -   Interactive logon: Prompt user to change password before expiration - 5 to 14 days
     -   This will warn a user a set number of days before their password expires so a password change can be performed.
+ 
+**TAKE A SCREENSHOT OF SOMETHING YOU CHANGED!!!!**
+ 
+Restart you computer to see the changes in effect. 
 
 After successfully setting these policies, a login screen should require
 a CTRL+ALT+DELETE combination for logging in, and a custom message will
