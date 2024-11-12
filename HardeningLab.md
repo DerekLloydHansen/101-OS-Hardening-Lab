@@ -476,8 +476,8 @@ prompting for confirmation before using administrator privileges:
 
 ## Turn In Procedure 
 
-To turn in this lab, you will do a writeup about what you learned along with screenshots of what you did. 
-Please include at least 3 screenshots. 
+To turn in this lab, you will do a 2 paragraph writeup about what you learned along with screenshots of what you did. 
+Please include at least 3 screenshots of things you have changed. 
 
 
 
