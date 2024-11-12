@@ -86,7 +86,9 @@ dot-backslash command:
 
 ![image](https://github.com/user-attachments/assets/8f519b79-a227-4262-8d1e-49c838d2f959)
 
+![image](https://github.com/user-attachments/assets/e708e6ba-452b-447b-a90b-856d9a5cd0d0)
 
+**TA Note** Replace ./lab.ps1 with ./system-hardening.ps1
 
 **Note:** This PowerShell script is not intended to be reverse
 engineered to find vulnerabilities on the system, but rather emulate an
