@@ -2,7 +2,7 @@
 
 1. Open up Box and look for the 101 Hardening Lab Folder
 
-{Box Link](https://byu.box.com/s/glivxjlh23kkpwogxkg7a5r6uahm6mx1)
+[Box Link](https://byu.box.com/s/glivxjlh23kkpwogxkg7a5r6uahm6mx1)
 
 3. Look for the Windows 10.iso file and copy it over to your Downloads folder 
 
