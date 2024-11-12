@@ -37,7 +37,7 @@ Here is how to take a snapshot:
 ![image](https://github.com/user-attachments/assets/5161e9fc-5dec-4e51-b954-e52adc4174fa)
 
 
-### Custom Lab Configuration
+### Optional: Custom Lab Configuration
 
 For this lab, customization is an option for presenting alternate environments from the one pre-configured in `system-hardening.ps1`. 
 
