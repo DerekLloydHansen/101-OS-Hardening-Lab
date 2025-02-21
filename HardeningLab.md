@@ -43,8 +43,8 @@ This lab requires a Windows 10 workstation virtual machine.
 
 <u>PowerShell Script Steps:</u>
 
-Extract system-hardening.ps1 inside your Windows VM. This can either be done
-by downloading the file inside the Virtual Machine. Go to this Github repository in your VM and download system-hardening.ps1. You can download it by going to the file and press the Download Raw File in the top right corner of the file. 
+Extract system-hardening.ps1 inside your Windows VM. This can be done
+by downloading the file inside the Virtual Machine. Go to this Github repository in your VM through Microsoft Edge and download system-hardening.ps1. You can download it by going to the file and press the Download Raw File in the top right corner of the file. 
 machine.
 
 **TA Note: If you download the scripts from Github, Microsoft Edge will flag this script as dangerous. You may have to click on the download and press keep to make it appear in your Downloads folder.**
